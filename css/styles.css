@@ -1,7 +1,28 @@
+.page {
+  background-color: #FFFFFF;
+  color: #2e2f42;
+}
 
+/* logo */
+.logo {
+  text-transform: uppercase;
+}
 
+.logo-web {
+  color: #4d5ae5;
+}
 
-/* main text color #2E2F42 */
-/* baner color #FFFFFF */
-/* description color #E7E9FC */
-/*  */
+.list {
+    list-style: none;
+}
+
+.site-nav .link {
+    color: #2E2F42;
+    
+}
+
+.Contacts-nav {
+    color: #434455;
+
+}
+
