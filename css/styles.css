@@ -1,19 +1,19 @@
 :root {
-  --primary-text-color-theme-light: #2e2f42;
-  --secondary-text-color-theme-light: #434455;
-  --primary-text-color-theme-dark: #f4f4fd;
-  --secondary-text-color-theme-dark: #e7e9fc;
-  --title-accent-color: #4d5ae5;
-  --primary-white-color: #ffffff;
-  --alternative-background-color: #f4f4fd;
-  --accent-color: #2e2f42;
-  --focus-link-color: #404bbf;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --dark-headings-color: #2e2f42;
+  --success-messages-color: #31d0aa;
+  --dark-body-color: #434455;
+  --helper-text-color: #8e8f99;
+  --footer-text-color: #e7e9fc;
+  --light-mode-color: #f4f4fd;
+  --body-dackground-color: #ffffff;
 }
 
 body {
-  background-color: var(--primary-white-color);
+  background-color: var(--body-dackground-color);
   font-weight: 400;
-  color: var(--primary-text-color-theme-light);
+  color: var(--dark-body-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.02em;
   font-size: 16px;
@@ -53,35 +53,29 @@ button {
   list-style: none;
 }
 
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  margin-bottom: 8px;
-}
-
 .link:hover,
 .link:focus,
 .contact:hover,
 .contact:focus {
-  color: var(--focus-link-color);
+  color: var(--pressed-state-color);
 }
 
 .section-subtitle {
   font-size: 20px;
   line-height: 1.2;
+  margin-bottom: 8px;
 }
 
 .description {
   font-size: 16px;
   line-height: 1.5;
-  color: var(--secondary-text-color-theme-light);
 }
 
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  margin-bottom: 72px;
 }
 
 .container {
@@ -94,7 +88,7 @@ h3 {
 
 /* =============== HEADER =============== */
 .logo {
-  color: var(--primary-text-color-theme-light);
+  color: var(--dark-headings-color);
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -105,11 +99,11 @@ h3 {
 }
 
 .logo-web {
-  color: var(--title-accent-color);
+  color: var(--primary-brand-color);
 }
 /* nav section */
 .link {
-  color: var(--primary-text-color-theme-light);
+  color: var(--dark-headings-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -117,7 +111,7 @@ h3 {
 }
 
 .contact {
-  color: var(--secondary-text-color-theme-light);
+  color: var(--dark-body-color);
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
@@ -134,8 +128,8 @@ h3 {
 }
 
 .hero-title {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  color: #ffffff;
+  background-color: var(--dark-headings-color);
   font-size: 56px;
   line-height: 1.1;
   text-align: center;
@@ -147,14 +141,14 @@ h3 {
   border-radius: 4px;
   padding: 16px 32px;
   font-weight: 500;
-  color: var(--primary-white-color);
-  background-color: var(--title-accent-color);
+  color: #ffffff;
+  background-color: var(--primary-brand-color);
   border: 1px solid transparent;
 }
 
 .button:hover,
 .button:focus {
-  background-color: var(--focus-link-color);
+  background-color: var(--pressed-state-color);
 }
 
 /* =============== \HERO =============== */
@@ -162,7 +156,7 @@ h3 {
 /* =============== TEAM =============== */
 
 .team {
-  background-color: var(--alternative-background-color);
+  background-color: var(--light-mode-color);
 }
 
 /* =============== \TEAM =============== */
@@ -170,11 +164,11 @@ h3 {
 /* =============== FOOTER =============== */
 
 .footer {
-  background-color: var(--accent-color);
+  background-color: var(--dark-headings-color);
 }
 
 .footer-logo {
-  color: var(--alternative-background-color);
+  color: var(--light-mode-color);
   font-family: "Raleway" sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -183,10 +177,11 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  margin-bottom: 16px;
 }
 
 .footer > .description {
-  color: var(--secondary-text-color-theme-dark);
+  color: var(--footer-text-color);
 }
 
 /* =============== \FOOTER =============== */
@@ -198,15 +193,15 @@ h3 {
   border-radius: 4px;
   padding: 12px 24px;
   font-weight: 500;
-  color: var(--title-accent-color);
-  background-color: var(--alternative-background-color);
-  border: 1px solid #e7e9fc;
+  color: var(--primary-brand-color);
+  background-color: var(--light-mode-color);
+  border: 1px solid var(--footer-text-color);
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
-  color: var(--primary-white-color);
-  background-color: var(--focus-link-color);
+  color: var(--body-dackground-color);
+  background-color: var(--pressed-state-color);
 }
 
 /* =============== /PORTFOLIO =============== */
