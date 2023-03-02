@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Studio</title>
+    <title>Portfolio</title>
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,127 +22,144 @@
   </head>
   <body>
     <header class="header">
-      <nav>
-        <a href="./index.html" class="logo"
-          ><span class="logo-web">Web</span>Studio</a
-        >
-        <ul class="list">
-          <li><a href="./index.html" class="link">Studio</a></li>
-          <li><a href="./portfolio.html" class="link">Portfolio</a></li>
-          <li><a href="" class="link">Contacts</a></li>
-        </ul>
-      </nav>
-      <address>
-        <ul class="list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="contact"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="contact">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <nav class="page-nav">
+          <a class="logo" href="./index.html"
+            ><span class="logo-web">Web</span>Studio</a
+          >
+          <ul class="menu list">
+            <li class="menu-item">
+              <a class="menu-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address>
+          <ul class="list">
+            <li>
+              <a class="contact" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contact" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
+    <!-- Main -->
     <main>
       <!-- Filter -->
-      <section class="filter">
-        <h1 class="hero-title">Navigation</h1>
-        <ul class="list">
-          <li><button class="filter-btn">All</button></li>
-          <li><button class="filter-btn">Web Site</button></li>
-          <li><button class="filter-btn">App</button></li>
-          <li><button class="filter-btn">Design</button></li>
-          <li><button class="filter-btn">Marketing</button></li>
-        </ul>
-      </section>
-      <!-- Hero -->
       <section>
-        <h2>examples</h2>
-        <ul class="list">
-          <li>
-            <img src="./images/banking_app.jpg" alt="Banking_App" width="360" />
-            <h3 class="section-subtitle">Banking App Interface Concept</h3>
-            <p>App</p>
-          </li>
-          <li>
-            <img
-              src="./images/cashless_payment_marketing.jpg"
-              alt="Cashless_Payment"
-              width="360"
-            />
-            <h3 class="section-subtitle">Cashless Payment</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/meditaion_app.jpg"
-              alt="Meditaion_App"
-              width="360"
-            />
-            <h3 class="section-subtitle">Meditaion App</h3>
-            <p>App</p>
-          </li>
-          <li>
-            <img
-              src="./images/taxi_service_marketing.jpg"
-              alt="Taxi_Service"
-              width="360"
-            />
-            <h3 class="section-subtitle">Taxi Service</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/screen_illustrations_design.jpg"
-              alt="Screen_Illustrations"
-              width="360"
-            />
-            <h3 class="section-subtitle">Screen Illustrations</h3>
-            <p>Design</p>
-          </li>
-          <li>
-            <img
-              src="./images/online_courses_marketing.jpg"
-              alt="Online_Courses"
-              width="360"
-            />
-            <h3 class="section-subtitle">Online Courses</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/instagram_stories_concept_design.jpg"
-              alt="Instagram_Stories_Concept"
-              width="360"
-            />
-            <h3 class="section-subtitle">Instagram Stories Concept</h3>
-            <p>Design</p>
-          </li>
-          <li>
-            <img
-              src="./images/organic_food_web_site.jpg"
-              alt="Organic_Food"
-              width="360"
-            />
-            <h3 class="section-subtitle">Organic Food</h3>
-            <p>Web Site</p>
-          </li>
-          <li>
-            <img
-              src="./images/fresh_coffee_web_site.jpg"
-              alt="Fresh_Coffee"
-              width="360"
-            />
-            <h3 class="section-subtitle">Fresh Coffee</h3>
-            <p>Web Site</p>
-          </li>
-        </ul>
+        <div class="container">
+          <!-- ПРИХОВАТИ!!! -->
+          <h1>Portfolio</h1>
+          <ul class="list">
+            <li><button class="filter-btn">All</button></li>
+            <li><button class="filter-btn">Web Site</button></li>
+            <li><button class="filter-btn">App</button></li>
+            <li><button class="filter-btn">Design</button></li>
+            <li><button class="filter-btn">Marketing</button></li>
+          </ul>
+          <!-- Hero -->
+          <!-- ПРИХОВАТИ!!! -->
+          <h2>Examples</h2>
+          <ul class="list">
+            <li>
+              <img
+                src="./images/examples/banking_app.jpg"
+                alt="Banking_App"
+                width="360"
+              />
+              <h3 class="section-subtitle">Banking App Interface Concept</h3>
+              <p>App</p>
+            </li>
+            <li>
+              <img
+                src="./images/examples/cashless_payment_marketing.jpg"
+                alt="Cashless_Payment"
+                width="360"
+              />
+              <h3 class="section-subtitle">Cashless Payment</h3>
+              <p>Marketing</p>
+            </li>
+            <li>
+              <img
+                src="./images/examples/meditaion_app.jpg"
+                alt="Meditaion_App"
+                width="360"
+              />
+              <h3 class="section-subtitle">Meditaion App</h3>
+              <p>App</p>
+            </li>
+            <li>
+              <img
+                src="./images/examples/taxi_service_marketing.jpg"
+                alt="Taxi_Service"
+                width="360"
+              />
+              <h3 class="section-subtitle">Taxi Service</h3>
+              <p>Marketing</p>
+            </li>
+            <li>
+              <img
+                src="./images/examples/screen_illustrations_design.jpg"
+                alt="Screen_Illustrations"
+                width="360"
+              />
+              <h3 class="section-subtitle">Screen Illustrations</h3>
+              <p>Design</p>
+            </li>
+            <li>
+              <img
+                src="./images/examples/online_courses_marketing.jpg"
+                alt="Online_Courses"
+                width="360"
+              />
+              <h3 class="section-subtitle">Online Courses</h3>
+              <p>Marketing</p>
+            </li>
+            <li>
+              <img
+                src="./images/examples/instagram_stories_concept_design.jpg"
+                alt="Instagram_Stories_Concept"
+                width="360"
+              />
+              <h3 class="section-subtitle">Instagram Stories Concept</h3>
+              <p>Design</p>
+            </li>
+            <li>
+              <img
+                src="./images/examples/organic_food_web_site.jpg"
+                alt="Organic_Food"
+                width="360"
+              />
+              <h3 class="section-subtitle">Organic Food</h3>
+              <p>Web Site</p>
+            </li>
+            <li>
+              <img
+                src="./images/examples/fresh_coffee_web_site.jpg"
+                alt="Fresh_Coffee"
+                width="360"
+              />
+              <h3 class="section-subtitle">Fresh Coffee</h3>
+              <p>Web Site</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer container">
       <a class="footer-logo" href="./index.html"
         ><span class="logo-web">Web</span>Studio</a
       >
